@@ -144,11 +144,11 @@ def on_submit(entries):
 app = tk.Tk()
 app.title("WA Driver License Generator")
 script_dir = os.path.dirname(__file__)
-svg_file_path = os.path.join(script_dir, 'data', 'WaIdTemp.svg')
+svg_file_path = os.path.join(script_dir, 'WaIdTemp.svg')
 load_svg(svg_file_path)
 
 fields = {
-    "driver_license_number": {"id": "tspan19", "type": "text", "row": 1},
+    "driver_license_number": {"id": "tspan3", "type": "text", "row": 1},
     "issue_date": {"id": "tspan103", "type": "text", "row": 2},
     "expiration_date": {"id": "tspan100", "type": "text", "row": 3},
     "audit_number": {"id": "tspan88", "type": "text", "row": 4},
@@ -172,18 +172,18 @@ submit_btn.grid(row=16, column=1)
 # Image fields setup
 
 # Driver's License Photo
-#driver_license_photo_label = tk.Label(app)
-#driver_license_photo_label.grid(row=1, column=2, rowspan=4)
-#load_driver_license_photo_button = tk.Button(app, text="Load Driver's License Photo",
- #                                            command=lambda: load_image(driver_license_photo_label, filedialog.askopenfilename()))
-#load_driver_license_photo_button.grid(row=5, column=2)
+driver_license_photo_label = tk.Label(app)
+driver_license_photo_label.grid(row=1, column=2, rowspan=4)
+load_driver_license_photo_button = tk.Button(app, text="Load Driver's License Photo",
+                                             command=lambda: load_image(driver_license_photo_label, filedialog.askopenfilename()))
+load_driver_license_photo_button.grid(row=5, column=2)
 
 # Signature
-#signature_photo_label = tk.Label(app)
-#signature_photo_label.grid(row=7, column=2, rowspan=4)
-#load_signature_photo_button = tk.Button(app, text="Load Signature Photo",
- #                                       command=lambda: load_image(signature_photo_label, filedialog.askopenfilename()))
-#load_signature_photo_button.grid(row=11, column=2)
+signature_photo_label = tk.Label(app)
+signature_photo_label.grid(row=7, column=2, rowspan=4)
+load_signature_photo_button = tk.Button(app, text="Load Signature Photo",
+                                        command=lambda: load_image(signature_photo_label, filedialog.askopenfilename()))
+load_signature_photo_button.grid(row=11, column=2)
 
 #error_note = tk.Label(app, text="Inches must be Input or it will Crash upon Creation!")
 #rror_note.grid(row=15, column=2)
