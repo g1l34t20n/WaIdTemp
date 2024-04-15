@@ -1,0 +1,76 @@
+<AAMVA>
+  <user>
+    <last e="DCS">Yarovenko</last>
+    <first e="DAC">Yana</first>
+    <dob e="DBB">2001-10-30</dob>
+    <eyes e="DAY">BRO</eyes>
+    <sex e="DBC">F</sex>
+    <height e="DAU">5'5"</height>
+    <weight e="DAW">115</weight>
+    <street e="DAG">7708 Ne 140TH Ave</street>
+    <city e="DAI">Vancouver</city>
+    <state e="DAJ">WA</state>
+    <postal e="DAK">98682-1304</postal>
+    <country e="DCG">USA</country>
+    <id e="DAQ">WDL17SSJ983B</id>
+    <issued e="DBD">2023-11-28</issued>
+    <expires e="DBA">2027-10-30</expires>
+  </user>
+  <head>
+    <filetype name="File Type">ANSI</filetype>
+    <format name="Data Format">11</format>
+    <issuer name="Issuer Identification Number">636045</issuer>
+    <state name="Issuer Name">Washington</state>
+    <st name="Issuer Name Abbreviated">WA</st>
+    <version name="AAMVA Version Number">09</version>
+    <jurver name="Jurisdiction Version Number">00</jurver>
+    <entries name="Number of Entries">01</entries>
+  </head>
+  <subfile designator="DL" offset="31" length="276">
+    <element id="DCA" name="Jurisdiction-specific vehicle class"
+>NONE</element>
+    <element id="DCB" name="Jurisdiction-specific restriction co
+des">NONE</element>
+    <element id="DCD" name="Jurisdiction-specific endorsement co
+des">NONE</element>
+    <element id="DBA" name="Document Expiration Date">10302027
+      </element>
+    <element id="DCS" name="Customer Family Name">YAROVENKO
+      </element>
+    <element id="DAC" name="Driver First Name">YANA</element>
+    <element id="DAD" name="Driver Middle Name or Initial">NONE
+      </element>
+    <element id="DBD" name="Document Issue Date">11282023
+      </element>
+    <element id="DBB" name="Date of Birth">10302001</element>
+    <element id="DBC" name="Physical Description - Sex">2
+      </element>
+    <element id="DAY" name="Physical Description - Eye Color">BR
+O</element>
+    <element id="DAU" name="Physical Description - Height">065 i
+n</element>
+    <element id="DAG" name="Address - Street 1">7708 NE 140TH AV
+E</element>
+    <element id="DAI" name="Address - City">VANCOUVER</element>
+    <element id="DAJ" name="Address - Jurisdiction Code">WA
+      </element>
+    <element id="DAK" name="Address - Postal Code">986821304
+      </element>
+    <element id="DAQ" name="Customer ID Number">WDL17SSJ983B
+      </element>
+    <element id="DCF" name="Document Discriminator">WDL17SSJ983B
+P112823511148</element>
+    <element id="DCG" name="Country Identification">USA</element
+>
+    <element id="DDE" name="Family name truncation">N</element>
+    <element id="DDF" name="First name truncation">N</element>
+    <element id="DDG" name="Middle name truncation">N</element>
+    <element id="DCJ" name="Audit information">P112823511148
+      </element>
+    <element id="DDA" name="Compliance Type">N</element>
+    <element id="DDB" name="Card Revision Date">11122019
+      </element>
+    <element id="DAW" name="Physical Description - Weight">115
+      </element>
+  </subfile>
+</AAMVA>

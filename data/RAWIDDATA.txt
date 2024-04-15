@@ -1,0 +1,66 @@
+<user>
+    <last e="DCS">Lastnamexyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyx</last>
+    <first e="DAC">Firstxyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxxyx</first>
+    <middle e="DAD">Xyxyxyxyxyxyxyxyxxyxyxyxyxyxyxyxxyxyxyxy</middle>
+    <suffix e="DCU">SUFFIX</suffix>
+    <dob e="DBB">1977-10-31</dob>
+    <eyes e="DAY">BRO</eyes>
+    <hair e="DAZ">BLK XY1XY1XY</hair>
+    <sex e="DBC">M</sex>
+    <height e="DAU">5'8"</height>
+    <weight e="DAW">150 lbs</weight>
+    <street e="DAG">1234 Any Street Xy1Xy1Xy1Xy1Xy1Xy1X</street>
+    <city e="DAI">City Xy1Xy1Xy1Xy1Xy1</city>
+    <state e="DAJ">CA</state>
+    <postal e="DAK">00000-0000</postal>
+    <country e="DCG">USA</country>
+    <id e="DAQ">D1234562 XYXYXYXYXYXYXYXYX</id>
+    <issued e="DBD">2009-10-31</issued>
+    <expires e="DBA">2014-10-31</expires>
+</user>
+<head>
+    <filetype name="File Type">ANSI</filetype>
+    <format name="Data Format">21</format>
+    <issuer name="Issuer Identification Number">636046</issuer>
+    <state name="Issuer Name">WASHINGTON</state>
+    <st name="Issuer Name Abbreviated">WA</st>
+</head>
+<subfile designator="DL">
+    <element id="DAQ" name="Customer ID Number">D1234562 XYXYXYXYXYXYXYXYX</element>
+    <element id="DCS" name="Customer Family Name">LASTNAMEXYXYXYXYXYXYXYXYXXYXYXYXYXYXYXYX</element>
+    <element id="DDE" name="Family name truncation">U</element>
+    <element id="DAC" name="Driver First Name">FIRSTXYXYXYXYXYXYXYXYXXYXYXYXYXYXYXYXXYX</element>
+    <element id="DDF" name="First name truncation">U</element>
+    <element id="DAD" name="Driver Middle Name or Initial">XYXYXYXYXYXYXYXYXXYXYXYXYXYXYXYXXYXYXYXY</element>
+    <element id="DDG" name="Middle name truncation">U</element>
+    <element id="DCA" name="Jurisdiction-specific vehicle class">A XYXY</element>
+    <element id="DCB" name="Jurisdiction-specific restriction codes">NONEY1XY1XY1</element>
+    <element id="DCD" name="Jurisdiction-specific endorsement codes">NONEX</element>
+    <element id="DBD" name="Document Issue Date">10312009</element>
+    <element id="DBB" name="Date of Birth">10311977</element>
+    <element id="DBA" name="Document Expiration Date">10312014</element>
+    <element id="DBC" name="Physical Description – Sex">1</element>
+    <element id="DAU" name="Physical Description – Height">068 IN</element>
+    <element id="DAY" name="Physical Description – Eye Color">BRO</element>
+    <element id="DAG" name="Address – Street 1">1234 ANY STREET XY1XY1XY1XY1XY1XY1X</element>
+    <element id="DAI" name="Address – City">CITY XY1XY1XY1XY1XY1</element>
+    <element id="DAJ" name="Address – Jurisdiction Code">CA</element>
+    <element id="DAK" name="Address – Postal Code">000000000</element>
+    <element id="DCF" name="Document Discriminator">00/00/0000NNNAN/ANFD/YY X</element>
+    <element id="DCG" name="Country Identification">USA</element>
+    <element id="DCU" name="Name Suffix">SUFFIX</element>
+    <element id="DAW" name="Physical Description – Weight">150</element>
+    <element id="DAZ" name="Hair color">BLK XY1XY1XY</element>
+    <element id="DCK" name="Inventory control number">XY1XY1XY1XY1XY1XY1XY1XY1X</element>
+    <element id="DDA" name="Compliance Type">F</element>
+    <element id="DDB" name="Card Revision Date">MMDDCCYY</element>
+    <element id="DDD" name="Limited Duration Document Indicator">1</element>
+</subfile>
+<subfile designator="ZC">
+    <element id="A" name="Optional field A">Y</element>
+    <element id="B" name="Optional field B">CORR LENS</element>
+    <element id="C" name="Optional field C">BRN</element>
+    <element id="D" name="Optional field D">XYX</element>
+    <element id="E" name="Optional field E">XYXYXYXYXYXYXY</element>
+    <element id="F" name="Optional field F">XY1XY1XY1XY1XY1XY1XYXYXYXYXYXYXY</element>
+</subfile>

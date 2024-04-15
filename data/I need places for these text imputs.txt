@@ -1,0 +1,22 @@
+I need places for these text imputs :         |   TREATED AS IN .SVG                        |                       | TREATED AS IN <AAMVA>|
+                                              |                                             |                       |
+______________________________________________|_____________________________________________|____________________   |
+DL NUMBER.....................................| {DRIVER LICENSE NUMBER}                     | id="tspan19"
+ISSUE DATE....................................| [MM/DD/CCYY]                                | id="text103
+EXPIRATION DATE...............................| [MM/DD/CCYY]                                | id="tspan100"
+AUDIT NUMBER..................................| {AUDIT NUMBER}                              | id="tspan88"
+DD NUMBER...**NOT INPUT DIRECTY***............|"{DRIER LICENSE NUMBER}{AUDIT NUMBER}"       | id="tspan104"	
+FIRST NAME....................................|"{FIRST NAME} {MIDDLE NAME}"                 | id="tspan91"
+MIDDLE NAME ..................................| see above                                   | part of above
+LAST NAME    .................................| {LAST NAME}                                 | id="tspan90"                           
+DOB...........................................| [MM/DD/CCYY]                                | id="tspan92"
+STREET ADDRESS................................| ALPHANUMERIC {ADDRESS LINE 1}               | id="tspan93"
+CITY..........................................|"{CITY} WA {ZIP XXXXX-XXXX}"                 | id="tspan94"
+ZIP...........................................| SEE ABOVE IF LAST 4 ?? USE 0000             | part from above
+SEX...........................................| [F,M,U]                                     | id="tspan95"
+HEIGHT........................................| INCHES DISPLAYED X'XX     x'-xx&quot;       | id="tspan96"
+EYES..........................................| [BRO,BLK,HAZ,GRN,BLU]                       | id="tspan97"
+WGT...........................................| XXX LB                                      | id="tspan98"
+RESTRICTIONS..................................|                                             | id="tspan83"
+CLASS.........................................| [A,B,C,D,E,F,]                              | id='tspan30"
+END...........................................| NONE                                        | id="tspan99"
